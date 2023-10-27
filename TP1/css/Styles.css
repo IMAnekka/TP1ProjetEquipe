@@ -1,36 +1,95 @@
 body{
-    font-family:  Verlag,Arial,sans-serif;
+    font-family: Arial,sans-serif;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 nav#bar{
+    overflow: hidden;
     background-color: black;
     height: 60px;
     width: auto;
 }
 nav#bar ul li a{
-    display: flex;
     color: white;
-    font-size: 12px;
+    font-size: 12.4px;
     text-decoration: none;
-
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 12px;
 }
 ul{
     display: flex;
     list-style: none;
-    justify-content: space-between;
-    padding: 0px;
+    padding-left: 277px;
     margin: 0px;
 }
-nav img{
-    display: block;
+.image:hover{
+    opacity: 0.6;
 }
+nav div.image{
+    display: flex;
+    align-items: center;
+}
+.sujet{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+p{
+    color: white;
+    font-weight: lighter;
+}
+#imageFlash:hover{
+    position:fixed;
+    height: 236px;
+    opacity:0.9;
+}
+.container{
+    display: inline-block;
+    position: relative;
+    padding-top: 15px;
+}
+.container .text{
+    position: fixed;
+    margin-left: 920px;
+    left: 0;
+    right: 0;
+    top: 90px;
+    color: white;
+    width: 17%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*couleurs hover*/
 #bleu:hover{
     border-bottom: 8px solid #5a79a0;
