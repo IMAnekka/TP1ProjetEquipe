@@ -39,11 +39,6 @@ p{
     color: rgb(179, 177, 177);
     font-weight: lighter;
 }
-.container:hover{
-    position:fixed;
-    height: 236px;
-    opacity:0.9;
-}
 .container{
     display: inline-block;
     position: relative;
@@ -51,13 +46,13 @@ p{
     margin-left: 11px;
 }
 .container .text{
-    position: fixed;
+    position: absolute;
     margin-left: 920px;
     left: 0;
     right: 0;
-    top: 90px;
+    top: 40px;
     color: white;
-    width: 17%;
+    width: 33;
 }
 #badge{
     display: inline-block;
@@ -115,43 +110,14 @@ footer{
     margin-top: 25px;
 }
 #un{
-    text-align: start;
     width: 278.46px;
+    margin-right: 63px;
 
 }
 #deux{
-
-    margin-left: 63px;
-    margin-right: 63px;
     width: 278.46px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*couleurs hover*/
 #bleu:hover{
     border-bottom: 8px solid #5a79a0;
