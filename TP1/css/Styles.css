@@ -1,0 +1,71 @@
+body{
+    font-family:  Verlag,Arial,sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav#bar{
+    background-color: black;
+    height: 60px;
+    width: auto;
+}
+nav#bar ul li a{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+nav img{
+    display: block;
+}
+/*couleurs hover*/
+#bleu:hover{
+    border-bottom: 8px solid #5a79a0;
+}
+#vert:hover{
+    border-bottom: 8px solid #6b9500;
+}
+#beige:hover{
+    border-bottom: 8px solid #c38767;
+}
+#bleuclair:hover{
+    border-bottom: 8px solid #207fb7;
+}
+#jaune:hover{
+    border-bottom: 8px solid #ffaf00;
+}
+#bleufoncer:hover{
+    border-bottom: 8px solid #5b7c8e;
+}
+#turquoise:hover{
+    border-bottom: 8px solid #14a574;
+}
+#mauve:hover{
+    border-bottom: 8px solid #a05fa8;
+}
+#saumon:hover{
+    border-bottom: 8px solid #d25f68;
+}
+#grenat:hover{
+    border-bottom: 8px solid #840132;
+}
+#orange:hover{
+    border-bottom: 8px solid #ff6c00;
+}
+#vertforet:hover{
+    border-bottom: 8px solid #55815c;
+}
+/*Fin couleur hover*/
