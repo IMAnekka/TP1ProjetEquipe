@@ -7,7 +7,6 @@ nav{
     justify-content: space-between;
 }
 nav#bar{
-    overflow: hidden;
     background-color: black;
     height: 60px;
     width: auto;
@@ -37,10 +36,10 @@ nav div.image{
     padding-right: 50px;
 }
 p{
-    color: white;
+    color: rgb(179, 177, 177);
     font-weight: lighter;
 }
-#imageFlash:hover{
+.container:hover{
     position:fixed;
     height: 236px;
     opacity:0.9;
@@ -49,6 +48,7 @@ p{
     display: inline-block;
     position: relative;
     padding-top: 15px;
+    margin-left: 11px;
 }
 .container .text{
     position: fixed;
@@ -59,10 +59,72 @@ p{
     color: white;
     width: 17%;
 }
+#badge{
+    display: inline-block;
+    white-space: nowrap;
 
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #5a79a0;
+}
+#badge2{
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #207fb7;
+}
+#description > a{
+    color: #b6b8b8;
+    line-height: 1.5;
+}
+small > a{
+    color: #888686;
+    font-size: smaller;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container .pub{
+    position: fixed;
+    background: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 300px;
+    height: 490px;
+}
+#bouton {
+    border: solid white 1px;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: underline;
+}
+#separation{
+    border-top: solid #dad3d3 1px;
+    padding-top: 12px;
+}
+aside{
+    display: flex;
+    flex-direction: row; 
+}
+footer{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+#un{
+    text-align: start;
+    width: 278.46px;
 
+}
+#deux{
 
-
+    margin-left: 63px;
+    margin-right: 63px;
+    width: 278.46px;
+}
 
 
 
